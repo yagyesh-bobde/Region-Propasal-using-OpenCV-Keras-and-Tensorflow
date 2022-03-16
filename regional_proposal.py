@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from imutils.object_detection import non_max_suppression
 
 # read the input image
-img = cv2.imread('/content/img4.jpg')
+img = cv2.imread('Assets/img4.jpg')
 
 # instanciate the selective search segmentation algorithm of opencv
 search = cv2.ximgproc.segmentation.createSelectiveSearchSegmentation()
